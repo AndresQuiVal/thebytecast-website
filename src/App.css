@@ -1,5 +1,66 @@
 .App {
   text-align: center;
+  background-color: #1A1B1B;
+  width: 100%;
+  height: 1000px;
+  font-family: "Poppins";
+  color: white;
+}
+
+#description-bytecast {
+  color:#44FDD4;
+}
+
+.title-container {
+  padding-top: 8px;
+  padding-bottom: 3px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.title-container:hover {
+  color: #32353B;
+  box-shadow: 30px 30px 30px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+#join-btn {
+  background-color: #1A1B1B;
+  border-radius: 20px;
+  color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.info-rounded {
+  border-radius: 20px;
+  background-color: #44FDD4;
+  padding: 56px;
+  color: #1A1B1B;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-menus {
+  border-radius: 10px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.navbar-menus:hover {
+  background-color: #44FDD4;
+  color: black;
+}
+
+.logo-img {
+  height: 10px;
+  width: 100px;
+  padding: 5px;
 }
 
 .App-logo {
