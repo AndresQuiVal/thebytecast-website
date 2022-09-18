@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import '../styles/styles.css';
 
 class Navbar extends Component {
@@ -18,13 +19,16 @@ class Navbar extends Component {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a style={{color: 'white'}} class="navbar-menus nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <Link style={{color: 'white'}} class="navbar-menus nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
                     </li>
                     <li class="nav-item">
-                        <a style={{color: 'white'}} class="navbar-menus nav-link" href="#">Acerca de</a>
+                        <Link style={{color: 'white'}} class="navbar-menus nav-link" to="/about-us">Acerca de</Link>
                     </li>
                     <li class="nav-item">
-                        <a style={{color: 'white'}} class="navbar-menus nav-link" href="#">¡Discord!</a>
+                        <Link style={{color: 'white'}} class="navbar-menus nav-link" to="/discord">¡Unete!</Link>
+                    </li>
+                    <li class="nav-item">
+                        <Link style={{color: 'white'}} class="navbar-menus nav-link" to="/purchase">Adquirir Byte (pro)</Link>
                     </li>
                     </ul>
                 </div>

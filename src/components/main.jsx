@@ -18,7 +18,7 @@ class Main extends Component {
                             </h4>
                             <br></br>
                             <div className="title-container shadow">
-                                <h2 id="description-bytecast"> <b>The ByteCast</b></h2>
+                                <h2 className='blue-lbl'> <b>The ByteCast</b></h2>
                             </div>
                             
                         </div>
@@ -129,6 +129,7 @@ class Main extends Component {
                         <button id='join-btn' className='shadow'>UNIRME</button>
                     </div>
                 </div>
+                <br></br><br></br><br></br><br></br>
             </div>
         );
     }
